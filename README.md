@@ -1,2 +1,3 @@
-# Simple Calculator Tutorial Android Studio
- Tutorial For MAking Simple Calculator With Android  Studio
+# Simple Calculator Tutorial Android Studio by Arsh Anwar
+ - (Tutorial) 
+ - For Making Simple Calculator using Android Studio
