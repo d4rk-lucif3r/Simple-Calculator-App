@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/firstNumeditText1"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Input 1"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <TextView
+        android:id="@+id/resultTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".98">
+
+        <Button
+            android:id="@+id/addbt12"
+            android:layout_width="102.5dp"
+            android:layout_height="100dp"
+            android:background="@drawable/mybutton2"
+            android:hapticFeedbackEnabled="true"
+            android:text="SIn"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/addbt13"
+            android:layout_width="102.5dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton2"
+            android:hapticFeedbackEnabled="true"
+            android:text="Cos"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/addbt14"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/mybutton2"
+            android:hapticFeedbackEnabled="true"
+            android:text="Tan"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/addbt15"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/mybutton2"
+            android:hapticFeedbackEnabled="true"
+            android:text="RAd"
+            android:textSize="40sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
