@@ -5,4 +5,4 @@
  # Description
  - Simple Calculator App.
  # Preview
- - [@ScreenRec_20200401_011524.mp](https://github.com/arshanwar/Simple-Calculator-Tutorial-Android-Studio/blob/master/ScreenRec_20200401_011524.mp4) for the Preview.
+ -![@ScreenRec_20200401_011524.mp](https://github.com/arshanwar/Simple-Calculator-App/blob/master/preview.gif) 
