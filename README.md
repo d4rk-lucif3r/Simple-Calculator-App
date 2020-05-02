@@ -1,4 +1,5 @@
 # Simple Calculator Android Studio by Arsh Anwar
+![Google Phone](https://img.shields.io/badge/Android-Lollipop+-blue.svg?logo=google&longCache=true&style=flat-square)
 
  -  Simple Calculator App.
  
